@@ -1,0 +1,945 @@
+Using pre-set license
+Built from 'HEAD' branch; Version is '2021.3.12f1c2 (ffeb050254a0) revision 16771845'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.12f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/SupermarkeT
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+1928
+Successfully changed project path to: D:/SupermarkeT
+D:/SupermarkeT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 79.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1c2 (ffeb050254a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/SupermarkeT/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022288 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 73.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.595 seconds
+Domain Reload Profiling:
+	ReloadAssembly (596ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (74ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008598 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\SupermarkeT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\SupermarkeT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (954ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (185.3 KB). Loaded Objects now: 4008.
+Memory consumption went from 129.6 MB to 129.4 MB.
+Total: 3.017200 ms (FindLiveObjects: 0.221100 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.556900 ms  DeleteObjects: 0.138900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3998.968276 seconds.
+  path: Assets/ModernSupermarket/Textures/Surfaces/Plaster_dwf9f5/Plaster_dwf9f5_n.png
+  artifactKey: Guid(78f556f6abcb57a409724c5564fce1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Textures/Surfaces/Plaster_dwf9f5/Plaster_dwf9f5_n.png using Guid(78f556f6abcb57a409724c5564fce1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1749bf96dcf5c5c3bc2ad7069ab4a9af') in 0.112599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.095185 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Utility/Basket_o52iei.prefab
+  artifactKey: Guid(2b387ac1c5b680840ad976977c5e81a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Utility/Basket_o52iei.prefab using Guid(2b387ac1c5b680840ad976977c5e81a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e252b2db5fc746cf52680561be5cd0e') in 0.235234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260188 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Utility/Basket_x5gi0j.prefab
+  artifactKey: Guid(97b4a40764c96a54bb687c5fe05bd561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Utility/Basket_x5gi0j.prefab using Guid(97b4a40764c96a54bb687c5fe05bd561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f44c30e8df6646f57d322065129f4d') in 0.023007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.470627 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Utility/Cart_nabnuh.prefab
+  artifactKey: Guid(d8ea10e099920e944a0be1325030ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Utility/Cart_nabnuh.prefab using Guid(d8ea10e099920e944a0be1325030ca41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fb00a7ad7fc21104058249abac60ca') in 0.092273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Utility/Scale_av1k2p.prefab
+  artifactKey: Guid(e75f6260963da8840b8d67ae1a78250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Utility/Scale_av1k2p.prefab using Guid(e75f6260963da8840b8d67ae1a78250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2cee51b63dc22d26bc685d73d37683') in 0.048269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Utility/Computer_dfc1a9.prefab
+  artifactKey: Guid(426d15d03e2abe74c94795931a49e950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Utility/Computer_dfc1a9.prefab using Guid(426d15d03e2abe74c94795931a49e950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574879b77cca6e74df5179932306e1cf') in 0.040067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Utility/CashMachine_lazhgf.prefab
+  artifactKey: Guid(82af2b73bcb53e341aec2538113c742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Utility/CashMachine_lazhgf.prefab using Guid(82af2b73bcb53e341aec2538113c742c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6573cceae6a6ef9e28a1576293a81c6') in 0.034319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Utility/Neon_dwd6wi.prefab
+  artifactKey: Guid(ff833f93911fe224382ad102b43d2c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Utility/Neon_dwd6wi.prefab using Guid(ff833f93911fe224382ad102b43d2c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde7c630332913f086355208cfc5be43') in 0.115649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Utility/WetFloor_fxi59q.prefab
+  artifactKey: Guid(38f66f4ee22bedd4a856a09b6292b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Utility/WetFloor_fxi59q.prefab using Guid(38f66f4ee22bedd4a856a09b6292b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad87b6fe24f5c4bae5ff778553c6377') in 0.051474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.306787 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_ao62w_Pack01.prefab
+  artifactKey: Guid(3f7d9422ac20c664697d560ac100550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_ao62w_Pack01.prefab using Guid(3f7d9422ac20c664697d560ac100550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b04c67c69e80577f13ccc304f43acac') in 0.182397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_06.prefab
+  artifactKey: Guid(72134693657988648aaaf8854538126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_06.prefab using Guid(72134693657988648aaaf8854538126f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7acc68d32bb199eb1ffe7506118490') in 0.084448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_tqkp8c.prefab
+  artifactKey: Guid(72a5ecf378139ae4e866d4419f33f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_tqkp8c.prefab using Guid(72a5ecf378139ae4e866d4419f33f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7933e80e319960afc2200213bd2e39d1') in 0.022234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_qi7uqv.prefab
+  artifactKey: Guid(d0b72d8e138411342939f9de971f7127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_qi7uqv.prefab using Guid(d0b72d8e138411342939f9de971f7127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6d4bf1fdead3d64d4385eee3b068a6') in 0.030336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Beer_lryra7_Var02_Pack01.prefab
+  artifactKey: Guid(38e9a43e4a2f3934c831e233237e9676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Beer_lryra7_Var02_Pack01.prefab using Guid(38e9a43e4a2f3934c831e233237e9676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e497802b4819abf89485343a012411cb') in 0.038945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/BeerPack_74mugc.prefab
+  artifactKey: Guid(00f4cc6b9cb376c4082532221963c346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/BeerPack_74mugc.prefab using Guid(00f4cc6b9cb376c4082532221963c346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8083a7b270f89ff416514915a0c05f64') in 0.028755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/BeerPack_74mugc_Var02.prefab
+  artifactKey: Guid(0d8f2e1a69d7875479ce04ba176567bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/BeerPack_74mugc_Var02.prefab using Guid(0d8f2e1a69d7875479ce04ba176567bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f23abe7745412fb7e73c9f55518930') in 0.030852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_eoojba_Pack01.prefab
+  artifactKey: Guid(1fa542a672dcea44a93124631297a047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_eoojba_Pack01.prefab using Guid(1fa542a672dcea44a93124631297a047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3245de3e1fbf601c248f2cddfdda9b8f') in 0.032082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_01.prefab
+  artifactKey: Guid(332012b48fa2fd141b7304dbb3e212b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_01.prefab using Guid(332012b48fa2fd141b7304dbb3e212b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71aec95daa214f48a0d82910764411d') in 0.037035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Beer_lryra7_Var01.prefab
+  artifactKey: Guid(259bb6c3ae2ea48498b675d5cd7262e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Beer_lryra7_Var01.prefab using Guid(259bb6c3ae2ea48498b675d5cd7262e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9b2205762c6e8e1111083e095d630a') in 0.024615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_qi7uqv_Pack01.prefab
+  artifactKey: Guid(3e2866c4d6de657468cdfa073def5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_qi7uqv_Pack01.prefab using Guid(3e2866c4d6de657468cdfa073def5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7835eda075272d26dfeeee8f9ef94a45') in 0.033041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_ao62w_Var01.prefab
+  artifactKey: Guid(64f35e946f50e324aa777eb219cfa2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Alcohol_ao62w_Var01.prefab using Guid(64f35e946f50e324aa777eb219cfa2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf35489a8cd7be662e93a88106342a3') in 0.027447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Bleach_irrpnt_Var01.prefab
+  artifactKey: Guid(e4e3ea6e2447a704e8f784d2df669e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Bleach_irrpnt_Var01.prefab using Guid(e4e3ea6e2447a704e8f784d2df669e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333a1b69f64716f620d8e6d95fda18e0') in 0.022964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Bag_s45li3_Var01.prefab
+  artifactKey: Guid(fc2b676c80fd79347be5cd3fa7fb6920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Bag_s45li3_Var01.prefab using Guid(fc2b676c80fd79347be5cd3fa7fb6920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e9ff7f1ed576238a12e2b6af8bdb0b') in 0.020538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Beer_lryra7_Var02.prefab
+  artifactKey: Guid(52ff02104034e9f4a85bc9ec192be835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Beer_lryra7_Var02.prefab using Guid(52ff02104034e9f4a85bc9ec192be835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956c76f7fde40258e7383a2eccb79f6e') in 0.027793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_07.prefab
+  artifactKey: Guid(7fe7a2784e7a7b8449dfc585ad7bc616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_07.prefab using Guid(7fe7a2784e7a7b8449dfc585ad7bc616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cacbf902f45c75f609e687d03c13dd') in 0.034336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_05.prefab
+  artifactKey: Guid(abe7371b6d6668941a44508c1e120477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_05.prefab using Guid(abe7371b6d6668941a44508c1e120477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12686a51b541518fbe3566199ef5dd5d') in 0.037388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/BeerKeg_byk96e.prefab
+  artifactKey: Guid(db3023770e5f8e54592425aa7c047b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/BeerKeg_byk96e.prefab using Guid(db3023770e5f8e54592425aa7c047b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7100b340b5881eea42c63788296fbf5d') in 0.025777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/BeerKeg_byk96e_Pack02.prefab
+  artifactKey: Guid(bf2f75e1c5fd85f43bff852384581d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/BeerKeg_byk96e_Pack02.prefab using Guid(bf2f75e1c5fd85f43bff852384581d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400a259331f5e9d3af15786c1ba8a48c') in 0.032666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_08.prefab
+  artifactKey: Guid(16296569048e55248a642dc09c908005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Book_bpxngl_08.prefab using Guid(16296569048e55248a642dc09c908005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded121d1e12aa9851d58131e464ad36a') in 0.037617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/BeerPack_74mugc_Var01.prefab
+  artifactKey: Guid(269436145912fe84b853be07329ff3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/BeerPack_74mugc_Var01.prefab using Guid(269436145912fe84b853be07329ff3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9266d470dd62c356e9fbd73002659f4') in 0.021189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Bleach_irrpnt_Pack02.prefab
+  artifactKey: Guid(c04116ccbdcd96b48950faf83840a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Bleach_irrpnt_Pack02.prefab using Guid(c04116ccbdcd96b48950faf83840a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc12519d07f08e1940a8a801a5001e58') in 0.023909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/BeerKeg_byk96e_Pack01.prefab
+  artifactKey: Guid(40ba5c103f61d824a92ff684fa256a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/BeerKeg_byk96e_Pack01.prefab using Guid(40ba5c103f61d824a92ff684fa256a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78eb3bf9e5cd849964715838458bf246') in 0.024675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Bag_s45li3_Var02.prefab
+  artifactKey: Guid(916e5d11fdc41234bbc9c83d8f27780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Bag_s45li3_Var02.prefab using Guid(916e5d11fdc41234bbc9c83d8f27780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa4d6633ee0057264dfadfd6f37a9f1') in 0.019029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/BeerPack_74mugc_Pack01.prefab
+  artifactKey: Guid(81f9077be4764384dbe87ddca5e7f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/BeerPack_74mugc_Pack01.prefab using Guid(81f9077be4764384dbe87ddca5e7f880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33791ecf946c1d6e31457a3c5256c5be') in 0.028061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Bleach_irrpnt_Pack01.prefab
+  artifactKey: Guid(7ae853c018dd63540b50f870e2f72f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Bleach_irrpnt_Pack01.prefab using Guid(7ae853c018dd63540b50f870e2f72f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7da7b1bfb9b3eebe13fda04fa777f0') in 0.020670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.713794 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Butter_5ttny6_Pack01.prefab
+  artifactKey: Guid(7fbac2d34a5a1b6488ece24a4bdd032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Butter_5ttny6_Pack01.prefab using Guid(7fbac2d34a5a1b6488ece24a4bdd032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667b374074d0d54b003f3453b989bca3') in 0.028200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cake_p6lebj.prefab
+  artifactKey: Guid(4ec80c4d940d238429262acceb089a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cake_p6lebj.prefab using Guid(4ec80c4d940d238429262acceb089a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce1360d51612f525fdc631f3b821106') in 0.049749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Capsule_rk7lsf.prefab
+  artifactKey: Guid(5bade6c594f9d48488c321dcfe5a09be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Capsule_rk7lsf.prefab using Guid(5bade6c594f9d48488c321dcfe5a09be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef764ce4ae31ca9fca6cc7944dd9828b') in 0.041018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cheese_dx1ygk.prefab
+  artifactKey: Guid(41b9c82b0d70c7240b2379152a88fe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cheese_dx1ygk.prefab using Guid(41b9c82b0d70c7240b2379152a88fe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18b8d04edab52e2aa18c5f2c4a4b0e7') in 0.028371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cheese_dx1ygk_Pack01.prefab
+  artifactKey: Guid(6fa52bc1896c23642b184204de813339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cheese_dx1ygk_Pack01.prefab using Guid(6fa52bc1896c23642b184204de813339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf31814dc2c2637f2a487107d681088') in 0.028094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cake_p6lebj_Var02.prefab
+  artifactKey: Guid(a56319d80fb388c48874694743212efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cake_p6lebj_Var02.prefab using Guid(a56319d80fb388c48874694743212efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1e38bc1ce57d11b46d591f57590014') in 0.035494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/CansPack_f98qxo_Pack02.prefab
+  artifactKey: Guid(57bb128e2d7140d4b8115b37c30821cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/CansPack_f98qxo_Pack02.prefab using Guid(57bb128e2d7140d4b8115b37c30821cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c4f9b4727eddac7d2e8eabeb1e5b41') in 0.208522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/CandyPack_qkmq5d.prefab
+  artifactKey: Guid(0241520004fc10d49869f6131cfff326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/CandyPack_qkmq5d.prefab using Guid(0241520004fc10d49869f6131cfff326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cf39f34b1e1f78fb0ffb12b2be32af') in 0.030772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cereals_me9j99_Pack01.prefab
+  artifactKey: Guid(249569072ac361945a138a9cd01c3faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cereals_me9j99_Pack01.prefab using Guid(249569072ac361945a138a9cd01c3faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dd6461ec1f1fb484c6911a851cc17e') in 0.044371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cheese_bn26cq_Var01.prefab
+  artifactKey: Guid(d95be38afc74ad341961c8b9c718df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cheese_bn26cq_Var01.prefab using Guid(d95be38afc74ad341961c8b9c718df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84495f9779bcdb15a06870c43c9101f0') in 0.028691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.593098 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cheese_ipc281_Pack01_Var01.prefab
+  artifactKey: Guid(4db4101ad54379742a25c9d3b1813500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cheese_ipc281_Pack01_Var01.prefab using Guid(4db4101ad54379742a25c9d3b1813500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bfff02748728697e6adc8502d7c407') in 0.027820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Chicken_ozj6pn_Pack01.prefab
+  artifactKey: Guid(6d2284e31055cac46bbf8c9806641a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Chicken_ozj6pn_Pack01.prefab using Guid(6d2284e31055cac46bbf8c9806641a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a9d3ee238962af62662712ecb9830') in 0.058309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Chips_w4tja8.prefab
+  artifactKey: Guid(c4ed65979e053b942afaeac7a2ef5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Chips_w4tja8.prefab using Guid(c4ed65979e053b942afaeac7a2ef5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46e2861ce02a56b7392bdda5a221a56') in 0.022395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.640953 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/ChocolateBox_b94wj0_Pack01.prefab
+  artifactKey: Guid(3219ac10ab8cc5c4ab37ec4a4431ad84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/ChocolateBox_b94wj0_Pack01.prefab using Guid(3219ac10ab8cc5c4ab37ec4a4431ad84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8d2bde780c3c59255140e6a59bfa61') in 0.043540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/ChocolateSpread_xhkyij_Var01.prefab
+  artifactKey: Guid(ac53fafdc449be3439df31e03aa7d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/ChocolateSpread_xhkyij_Var01.prefab using Guid(ac53fafdc449be3439df31e03aa7d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f2856f94e2af68ba4b197ac020aaf4') in 0.193420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086145 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cleanser_7dsib5_Pack01.prefab
+  artifactKey: Guid(c2e37f4974c5cd24ba7134eb98a09d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cleanser_7dsib5_Pack01.prefab using Guid(c2e37f4974c5cd24ba7134eb98a09d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71da16f18c63ce396f9c8886b3d6eba') in 0.024647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Coffee_5uj6zk.prefab
+  artifactKey: Guid(4a7f1e6533fc5ef43b347ee123c94086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Coffee_5uj6zk.prefab using Guid(4a7f1e6533fc5ef43b347ee123c94086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef5344daa077f47e5052a1468f3d24f') in 0.038220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Coffee_5uj6zk_Var02.prefab
+  artifactKey: Guid(552f96cc8dd492147a6243403875880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Coffee_5uj6zk_Var02.prefab using Guid(552f96cc8dd492147a6243403875880c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdda5b33f9f641104876617311330be') in 0.027397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cleanser_o964qg_Pack01_Var02.prefab
+  artifactKey: Guid(1ad05622693368f49b87a376882ea10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cleanser_o964qg_Pack01_Var02.prefab using Guid(1ad05622693368f49b87a376882ea10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ba00b3bb320a8b9adc84458bbd4b7b') in 0.032308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.360448 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cream_jatl5h.prefab
+  artifactKey: Guid(b75a639de963cc44796432df9decd17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cream_jatl5h.prefab using Guid(b75a639de963cc44796432df9decd17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb982df54d6d3de5fe8122da9693957') in 0.033793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Cream_jatl5h_Pack01_Var02.prefab
+  artifactKey: Guid(1ec8c44744cd22045a3f40041f253ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Cream_jatl5h_Pack01_Var02.prefab using Guid(1ec8c44744cd22045a3f40041f253ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3057e9d9516a29fa93b305e05fc13c') in 0.032578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Decoration_3k4dyn_04.prefab
+  artifactKey: Guid(61e92285ba2567f4e89fdd4a31cb3f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Decoration_3k4dyn_04.prefab using Guid(61e92285ba2567f4e89fdd4a31cb3f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0ddedaa9a9f9c24651b144ebccea3d') in 0.016849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Decoration_3k4dyn_01.prefab
+  artifactKey: Guid(dc39c93769f48074f9db3e5218f7b7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Decoration_3k4dyn_01.prefab using Guid(dc39c93769f48074f9db3e5218f7b7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36c936fb8722854be7fdd8d07bd76af') in 0.022467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Decoration_3k4dyn_03.prefab
+  artifactKey: Guid(b0d43d9d3b4835c49807b046beb2a38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Decoration_3k4dyn_03.prefab using Guid(b0d43d9d3b4835c49807b046beb2a38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261013c779ba1a9eb9ccd93652de8077') in 0.018737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141417 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/EggBox4x_nbzek2.prefab
+  artifactKey: Guid(88c4e3a2157af504ba53474c0c432e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/EggBox4x_nbzek2.prefab using Guid(88c4e3a2157af504ba53474c0c432e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233e1fb4bc63b6992178c28eff384026') in 0.030792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/FlourPack_ckgfmu_Var02.prefab
+  artifactKey: Guid(e5d09de59e2fece48919bc8f72b246c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/FlourPack_ckgfmu_Var02.prefab using Guid(e5d09de59e2fece48919bc8f72b246c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167da5b24c12d6a132dc67a91ae9633a') in 0.045203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Frozen_vhvpd4.prefab
+  artifactKey: Guid(2003d1c96c98c1248b1016bdea165bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Frozen_vhvpd4.prefab using Guid(2003d1c96c98c1248b1016bdea165bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fe33056ffa3d5c9483f0e619727132') in 0.033090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/FlourPack_ckgfmu_Var01.prefab
+  artifactKey: Guid(0a538973f977c6745bed02e2b8b1e7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/FlourPack_ckgfmu_Var01.prefab using Guid(0a538973f977c6745bed02e2b8b1e7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea17d01dbbc23de052efc29bf59b8ad2') in 0.024709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_t7wenh_Pack01_Var03.prefab
+  artifactKey: Guid(5372135d6aa4c97458aabcfefa32bb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_t7wenh_Pack01_Var03.prefab using Guid(5372135d6aa4c97458aabcfefa32bb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2f5478c04f8364f8f1d3b22eb55996') in 0.024173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/FrozenBox_vhvpd4_Pack01.prefab
+  artifactKey: Guid(8f088eb85b3bc5a40b7e9081c8faf083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/FrozenBox_vhvpd4_Pack01.prefab using Guid(8f088eb85b3bc5a40b7e9081c8faf083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff007d8a859aac4d79bfca2ce847c71d') in 0.023433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.390651 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_t7wenh_Var01.prefab
+  artifactKey: Guid(521272ae4057ae74bb422cd3a2591389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_t7wenh_Var01.prefab using Guid(521272ae4057ae74bb422cd3a2591389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b468ffd150fe535922173ad0efde428') in 0.024221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_xp713y_Pack01_Var01.prefab
+  artifactKey: Guid(7bfedd1127b17274792ae1487d4d3838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_xp713y_Pack01_Var01.prefab using Guid(7bfedd1127b17274792ae1487d4d3838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3651dec265efd107b42b376fbf0b323') in 0.028358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_t7wenh_Var04.prefab
+  artifactKey: Guid(202a4b9603f4f7348846ff987f34ae2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_t7wenh_Var04.prefab using Guid(202a4b9603f4f7348846ff987f34ae2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6ea0697b118770979f4b53ebfac8a8') in 0.024771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004512 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_xp713y_Var04.prefab
+  artifactKey: Guid(a8441b5b7b9f4ed488cfbda89bc9cf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/FrozenPack_xp713y_Var04.prefab using Guid(a8441b5b7b9f4ed488cfbda89bc9cf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c649fe0355e5936a1b32ef396edab218') in 0.022032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Ham_wplnxm_Pack01.prefab
+  artifactKey: Guid(c575196db0c276c489dbd25b02243794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Ham_wplnxm_Pack01.prefab using Guid(c575196db0c276c489dbd25b02243794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155ab6fabeebf296a32a13f434cab0c7') in 0.040165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Ham_wplnxm_Var02.prefab
+  artifactKey: Guid(375e58feb62549d4cb8df050fa0f8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Ham_wplnxm_Var02.prefab using Guid(375e58feb62549d4cb8df050fa0f8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a721d2aed1f2f27ef93ad046a473e5e') in 0.045715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.577971 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Laundry_mm7gx5_Pack01.prefab
+  artifactKey: Guid(c6ad079f21bdd214ea3afd2f56b5e1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Laundry_mm7gx5_Pack01.prefab using Guid(c6ad079f21bdd214ea3afd2f56b5e1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751fca7aaff5614368b0c0429003d159') in 0.032369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Laundry_mm7gx5_Var01.prefab
+  artifactKey: Guid(8dfbde47ea311814ead96920c7144cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Laundry_mm7gx5_Var01.prefab using Guid(8dfbde47ea311814ead96920c7144cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030ba33023f66cec9b833ec728d8839a') in 0.027066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Laundry_mm7gx5_Var02.prefab
+  artifactKey: Guid(67f6b708f4253704ab6e2149f61cb150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Laundry_mm7gx5_Var02.prefab using Guid(67f6b708f4253704ab6e2149f61cb150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805b2076d550668fc7cee6adbeb5d3d3') in 0.031912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.245734 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/MeatTray_fbw8xf_Pack01.prefab
+  artifactKey: Guid(fced27e9ce320ee45a49ecbd04810174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/MeatTray_fbw8xf_Pack01.prefab using Guid(fced27e9ce320ee45a49ecbd04810174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229512a4cfcdc0642deb9e7de112a0af') in 0.033289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Oil_751tp2_Pack01.prefab
+  artifactKey: Guid(4a1bf02f281469444b8a8c5dd839b7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Oil_751tp2_Pack01.prefab using Guid(4a1bf02f281469444b8a8c5dd839b7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b79d3ed5f7aa436798003dfc7e4dada') in 0.047476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Milk_l6slvx.prefab
+  artifactKey: Guid(2a281186c7235da46853781921a01022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Milk_l6slvx.prefab using Guid(2a281186c7235da46853781921a01022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc945bcefe451be34ff2e3726177e4b5') in 0.049215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Oil_nutmjk_Pack01.prefab
+  artifactKey: Guid(46d08d57317134d47a6b568bedd01f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Oil_nutmjk_Pack01.prefab using Guid(46d08d57317134d47a6b568bedd01f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae14a76ece048ccf51528b478f8d3f2') in 0.049849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/OldMetalBox_edzkm9.prefab
+  artifactKey: Guid(1adcdff5512bb3640ae65758b5a6a916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/OldMetalBox_edzkm9.prefab using Guid(1adcdff5512bb3640ae65758b5a6a916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2130618b20cd542641762ade7a52cbd0') in 0.030074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/PaperTowel_b8o0yi.prefab
+  artifactKey: Guid(af3fddf35f711cd4d829d9bf46663596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/PaperTowel_b8o0yi.prefab using Guid(af3fddf35f711cd4d829d9bf46663596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a94818b9739c7d9617dc43983dcd65') in 0.024022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Pasta_9duit2_Var01.prefab
+  artifactKey: Guid(073aff8a246ef894b8df6251ba137857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Pasta_9duit2_Var01.prefab using Guid(073aff8a246ef894b8df6251ba137857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9561789c91a63bae8ef04b011d22cd7c') in 0.092519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.525452 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Pasta_g87jtq_Var01.prefab
+  artifactKey: Guid(2c6f5c3c4e5a84f47852a9d0103bfe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Pasta_g87jtq_Var01.prefab using Guid(2c6f5c3c4e5a84f47852a9d0103bfe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9bdf179299e28e618bf2d6d0aa3c47') in 0.028031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Pepper_ybmiq9.prefab
+  artifactKey: Guid(63bc1723fb7bbff4eb0b744204e2157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Pepper_ybmiq9.prefab using Guid(63bc1723fb7bbff4eb0b744204e2157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4323697ec3c105b0c7614fca4c5d55') in 0.034939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/PetFood_2ujlf0.prefab
+  artifactKey: Guid(d8b9b35161e358346b84ce1925ef4240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/PetFood_2ujlf0.prefab using Guid(d8b9b35161e358346b84ce1925ef4240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2715c02769bd95335f58dfaa26b9b21c') in 0.033501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/PetFood_3pjwif_Var01.prefab
+  artifactKey: Guid(f5a7d502ca0715f4b884e425394121f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/PetFood_3pjwif_Var01.prefab using Guid(f5a7d502ca0715f4b884e425394121f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9e6915627176feb6d9679e57efe0dd') in 0.022126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Pizza_ehb1pe_Var01.prefab
+  artifactKey: Guid(c46e742c592dcda4f8f9eff6504c3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Pizza_ehb1pe_Var01.prefab using Guid(c46e742c592dcda4f8f9eff6504c3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79a952f2e59ad0864c3b2f329dce278') in 0.029282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Rice_rewt3q_Pack02.prefab
+  artifactKey: Guid(108757e1c7cb5c949ba8395e004838ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Rice_rewt3q_Pack02.prefab using Guid(108757e1c7cb5c949ba8395e004838ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0a69447c24d16338628b1c73ea1e59') in 0.035938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Salt_9we170_Pack01.prefab
+  artifactKey: Guid(c73376a1998bd1c49896a76fbe19296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Salt_9we170_Pack01.prefab using Guid(c73376a1998bd1c49896a76fbe19296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cbd574e407eda536f28bd91019a944') in 0.035615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.531626 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Sauce_cfrew8_Var01.prefab
+  artifactKey: Guid(5c7e9f8aeb2c71a41b42c79270e26f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Sauce_cfrew8_Var01.prefab using Guid(5c7e9f8aeb2c71a41b42c79270e26f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88830dc709e6164457f3cb238fa9d47b') in 0.038724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_lvhjkn_Var02.prefab
+  artifactKey: Guid(412529a781f99a34ba02c5f0a6b4b924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_lvhjkn_Var02.prefab using Guid(412529a781f99a34ba02c5f0a6b4b924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdfb1f847ab67a02caa2d9213f0e145') in 0.222681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_lvhjkn_Pack01_Var01.prefab
+  artifactKey: Guid(3d347801d6b57b742a1c7e3b1bb9e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_lvhjkn_Pack01_Var01.prefab using Guid(3d347801d6b57b742a1c7e3b1bb9e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a336a3932870c8c6a5247965ccb7792c') in 0.051402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144188 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_u15m67_Pack01_Var03.prefab
+  artifactKey: Guid(50c6c36d0f574234299dca24bdb7c6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_u15m67_Pack01_Var03.prefab using Guid(50c6c36d0f574234299dca24bdb7c6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e35fe175cd732cf1e185ecddc2f030b') in 0.034191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_u15m67_Var01.prefab
+  artifactKey: Guid(d5aeb169a768aeb4b9bf948f51c0b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_u15m67_Var01.prefab using Guid(d5aeb169a768aeb4b9bf948f51c0b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfcfafc384bd8c7f5ae92e9b737f2a9') in 0.049436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/SlicedBread_tp7aom.prefab
+  artifactKey: Guid(5306b4da8a8295043a08554f5331efdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/SlicedBread_tp7aom.prefab using Guid(5306b4da8a8295043a08554f5331efdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3051078467d397b263f9c3f67bdb9486') in 0.059887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Soda_d7rdw9_Var01.prefab
+  artifactKey: Guid(b84cee0ef6ba0e0458cbbb101c04e5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Soda_d7rdw9_Var01.prefab using Guid(b84cee0ef6ba0e0458cbbb101c04e5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf93b6236c5c4c4dede731ed4f4ef79') in 0.038396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Soda_d7rdw9_Pack01_Var01.prefab
+  artifactKey: Guid(2db64532c7c817a4c82371fdbaee5ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Soda_d7rdw9_Pack01_Var01.prefab using Guid(2db64532c7c817a4c82371fdbaee5ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2a9808b85fe984855bf02d30914511') in 0.043976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/SliceBread_6zus31.prefab
+  artifactKey: Guid(461831bbb42b7df49a5a80aaa1d3681e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/SliceBread_6zus31.prefab using Guid(461831bbb42b7df49a5a80aaa1d3681e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37946dc196435ce0430dee759e19dc3f') in 0.054336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_vimakk_Var01.prefab
+  artifactKey: Guid(e6dd57c184f0087439c73b75ecfabf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_vimakk_Var01.prefab using Guid(e6dd57c184f0087439c73b75ecfabf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371a4eaca9ebfcc9921695b145939033') in 0.041176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_u15m67_Var05.prefab
+  artifactKey: Guid(e76559c3416f7834b9742d3d2d6feb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Shampoo_u15m67_Var05.prefab using Guid(e76559c3416f7834b9742d3d2d6feb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb74dd96ef0a9aebefc371e11d07ef9b') in 0.028331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Soap_1rcsb1.prefab
+  artifactKey: Guid(c753ce760b8340749a58f7a713751e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Soap_1rcsb1.prefab using Guid(c753ce760b8340749a58f7a713751e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7997460a277dea7d82cf237852440c') in 0.063482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.712355 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Sugar_ffc568.prefab
+  artifactKey: Guid(396af82a144847e408e8cc126d1d3ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Sugar_ffc568.prefab using Guid(396af82a144847e408e8cc126d1d3ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cb4ec192ab6f42fbc310a03d2ec4fd') in 0.023006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Sugar_o0f6pn_Var01.prefab
+  artifactKey: Guid(2ee8c7a5c5e82de48b195b0d5cc8b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Sugar_o0f6pn_Var01.prefab using Guid(2ee8c7a5c5e82de48b195b0d5cc8b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fed1bb019461effe0a0a8c68735553') in 0.037988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/SweetJar_alnwix.prefab
+  artifactKey: Guid(da7d17b452b3d5749beea53ec01e57b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/SweetJar_alnwix.prefab using Guid(da7d17b452b3d5749beea53ec01e57b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b815ab3318dedf67f3b4fe30e4a35db0') in 0.033090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Teabox_5oq0ki_Pack01.prefab
+  artifactKey: Guid(395c548a2b8a4cd4f918370824252f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Teabox_5oq0ki_Pack01.prefab using Guid(395c548a2b8a4cd4f918370824252f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420d3f76d828592cc1a6ede344f8c660') in 0.040092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/TinCan_60afsy_01.prefab
+  artifactKey: Guid(c79380fa6bd100440b9de57703bcf9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/TinCan_60afsy_01.prefab using Guid(c79380fa6bd100440b9de57703bcf9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0bcf3c892cd8516575f1a15fa09629') in 0.036288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/SweetJar_lpbii4_Pack01.prefab
+  artifactKey: Guid(faa1421eaaa699b4a9e9e6d2ece290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/SweetJar_lpbii4_Pack01.prefab using Guid(faa1421eaaa699b4a9e9e6d2ece290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0b81946cef69fcb72a61b474de3d5c') in 0.024856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/Sushis_r6r1w6_Pack01.prefab
+  artifactKey: Guid(03120fe0067e41646aeef3bb7a078e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/Sushis_r6r1w6_Pack01.prefab using Guid(03120fe0067e41646aeef3bb7a078e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1948dc91eebc1a9d7fc39517e68bb') in 0.106258 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026097 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\SupermarkeT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\SupermarkeT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.373 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1373ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3537 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (153.1 KB). Loaded Objects now: 4036.
+Memory consumption went from 134.2 MB to 134.1 MB.
+Total: 3.968100 ms (FindLiveObjects: 0.455500 ms CreateObjectMapping: 0.114900 ms MarkObjects: 3.063900 ms  DeleteObjects: 0.331400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.235825 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/TinCan_60afsy_02_Var01.prefab
+  artifactKey: Guid(480ac4db1301e3046b3fcd90828a33a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/TinCan_60afsy_02_Var01.prefab using Guid(480ac4db1301e3046b3fcd90828a33a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736162fc3fb3d7f1572b6fa0bc56a986') in 0.083761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/ToiletPaper_tunz3i.prefab
+  artifactKey: Guid(fb2f7a88eab07574196dc58c141c9be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/ToiletPaper_tunz3i.prefab using Guid(fb2f7a88eab07574196dc58c141c9be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1705e63de46840df42be39d4046bcf88') in 0.095253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ModernSupermarket/Prefabs/Props/Products/ToiletPaper_tunz3i_Var01.prefab
+  artifactKey: Guid(eb5b5c6a41c4d1d44b55dd62de4e05a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModernSupermarket/Prefabs/Props/Products/ToiletPaper_tunz3i_Var01.prefab using Guid(eb5b5c6a41c4d1d44b55dd62de4e05a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a5ff9da161c43693faa6d7930113d3') in 0.039609 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024689 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\SupermarkeT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\SupermarkeT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1321ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (922ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3537 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (152.4 KB). Loaded Objects now: 4051.
+Memory consumption went from 134.2 MB to 134.1 MB.
+Total: 2.451200 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.063000 ms  DeleteObjects: 0.109500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
