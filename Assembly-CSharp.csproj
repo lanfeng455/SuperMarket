@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{9A92E385-F799-74F7-BB9E-75B245A7156B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -70,7 +69,6 @@
     <None Include="Assets\ModernSupermarket\Shaders\Glass.shader" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System.Management" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.12f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

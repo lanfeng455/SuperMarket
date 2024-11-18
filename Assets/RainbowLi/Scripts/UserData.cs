@@ -1,27 +1,60 @@
-using System;
-using System.Runtime.InteropServices;
-using System.Text;
 using UnityEngine;
-
+using Microsoft.Win32;
+using System;
+using UnityEngine.UI;
 public class UserData : MonoBehaviour
 {
-    [DllImport("advapi32.dll", SetLastError = true, CharSet = CharSet.Auto)]
-    public static extern int GetUserName(StringBuilder lpBuffer, ref int pcbBuffer);
-
+    public Text text;
     void Start()
     {
-        string displayName = GetCurrentUserDisplayName();
-        Debug.Log("当前登录的账户名: " + displayName);
+        text.text = "Welcome: " + GetUserName();
     }
 
-    private string GetCurrentUserDisplayName()
+    private string GetUserName()
     {
-        StringBuilder sb = new StringBuilder(256);
-        int length = sb.Capacity;
-        if (GetUserName(sb, ref length) > 0) // 判断函数调用是否成功
+        string accountName = string.Empty;
+
+        // 打开 HKEY_LOCAL_MACHINE\SAM\SAM 路径，获取用户账户信息
+        try
         {
-            return sb.ToString(); // 返回用户显示名称
+            using (RegistryKey key = Registry.Users.OpenSubKey(@".DEFAULT\Software\Microsoft\IdentityCRL\StoredIdentities"))
+            {
+                if (key != null)
+                {
+                    foreach (string identity in key.GetSubKeyNames())
+                    {
+                        using (RegistryKey subkey = Registry.Users.OpenSubKey(@".DEFAULT\Software\Microsoft\IdentityCRL\StoredIdentities\" + identity))
+                        {
+                                using (RegistryKey subsubkey = Registry.Users.OpenSubKey(@".DEFAULT\Software\Microsoft\IdentityCRL\StoredIdentities\" + identity + @"\"+ subkey.GetSubKeyNames()[0]))
+                                {
+                                    foreach (string valueName in subsubkey.GetValueNames())
+                                    {
+                                       if(valueName == "DisplayName")
+                                       {
+                                        Debug.Log("当前用户名：" + subsubkey.GetValue(valueName));
+                                        accountName = subsubkey.GetValue(valueName).ToString();
+                                       }
+                                    }
+                                }
+                        }
+                     }           
+                }
+                else
+                {
+                    Debug.Log("未找到指定的注册表项。");
+                }
+            }
         }
-        return "未知用户"; // 读取失败时的默认值
+        catch (UnauthorizedAccessException)
+        {
+            Debug.Log("没有权限访问该注册表项。请以管理员权限运行此程序。");
+        }
+        catch (Exception ex)
+        {
+            Debug.Log("发生异常: " + ex.Message);
+        }
+
+        return accountName;
     }
 }
+
