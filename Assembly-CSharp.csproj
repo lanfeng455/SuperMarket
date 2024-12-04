@@ -66,7 +66,9 @@
     <None Include="Assets\Gumball_Machine\Documentation\Gumball_Machine_Documentation.txt" />
     <None Include="Assets\ModernSupermarket\Shaders\MaskedColor.shader" />
     <None Include="Assets\ModernSupermarket\Shaders\Tesselation.shader" />
+    <None Include="Assets\FREE MUSIC PACK- Aila Scott\Contact Info.txt" />
     <None Include="Assets\ModernSupermarket\Shaders\Glass.shader" />
+    <None Include="Assets\FREE MUSIC PACK- Aila Scott\READ ME.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

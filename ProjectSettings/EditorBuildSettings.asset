@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/RainbowLi/test.unity
+    guid: ee8957ce42cffb540934f04415336901
   m_configObjects: {}
